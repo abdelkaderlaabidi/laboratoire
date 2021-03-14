@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+<head>
+<title> 4*4 </title>
+<script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+</head>
+<body>
+
+<a-scene>
+
+<a-assets>
+    
+<img id="sky" src="t/t">
+<a-plane id="sky" src="t/t"></a-plane>
+<a-asset-item id="laboratoire"       src="t/scene.gltf"></a-asset-item>
+<a-asset-item id="tube"              src="p/model.gltf"></a-asset-item>
+<a-asset-item id="microscope"        src="m/scene.gltf"></a-asset-item>
+<a-asset-item id="centrifuge"        src="o/scene.gltf"></a-asset-item>
+<a-asset-item id="benz"              src="benz/scene.gltf"></a-asset-item>
+<a-asset-item id="bota"              src="bot/scene.gltf"></a-asset-item>
+<a-asset-item id="dozaj"             src="dozaj/scene.gltf"></a-asset-item>
+<a-asset-item id="botl"              src="botl/scene.gltf"></a-asset-item>
+<a-asset-item id="maga"              src="maga/scene.gltf"></a-asset-item>
+<a-asset-item id="pipit"              src="pipit/scene.gltf"></a-asset-item>
+<a-asset-item id="mail"               src="mail/scene.gltf"></a-asset-item>
+<a-asset-item id="balance"            src="balance/scene.gltf"></a-asset-item>
+
+
+
+<a-asset-item id="boitee1"      src="b/scene.gltf"></a-asset-item>
+<a-asset-item id="boitee2"      src="b/scene.gltf"></a-asset-item>
+<a-asset-item id="boitee3"      src="b/scene.gltf"></a-asset-item>
+<a-asset-item id="boitee4"      src="b/scene.gltf"></a-asset-item>
+<a-asset-item id="boitee5"      src="b/scene.gltf"></a-asset-item>
+    
+</a-assets>
+
+
+<a-entity gltf-model="#laboratoire"  scale="0.05 0.065 0.05"          position="-19 10 -15"            rotation="0 0 0"  ></a-entity>
+<a-entity gltf-model="#tube"         scale="0.5 0.5 0.5"              position="12.88 11.2 -27.4"      rotation="0 180 0"></a-entity>
+<a-entity gltf-model="#microscope"   scale="0.05 0.05 0.05"           position="18 11.8 -22.4"         rotation="0 -90 0"></a-entity>
+<a-entity gltf-model="#microscope"   scale="0.05 0.05 0.05"           position="18 11.8 -24.35"        rotation="0 -90 0"></a-entity>
+<a-entity gltf-model="#microscope"   scale="0.05 0.05 0.05"           position="18 11.8 -26.25"        rotation="0 -90 0"></a-entity>
+
+
+
+
+<a-entity gltf-model="#centrifuge"   scale="3 4 3"                    position="14 11.8 -22.5"         rotation="0 180 0"></a-entity>
+<a-entity gltf-model="#centrifuge"   scale="3 4 3"                    position="15.5 11.8 -22.5"         rotation="0 180 0"></a-entity>
+<a-entity gltf-model="#centrifuge"   scale="3 4 3"                    position="12.6 11.8 -22.5"         rotation="0 180 0"></a-entity>
+
+
+
+
+<a-entity gltf-model="#boitee1"      scale="0.012 0.006 0.012"        position="13.5 11.8 -27.5"            rotation="0 0 0"  ></a-entity>
+<a-entity gltf-model="#boitee2"      scale="0.012 0.006 0.012"        position="13.5 11.8 -29"              rotation="0 0 0"  ></a-entity>
+<a-entity gltf-model="#boitee3"      scale="0.012 0.006 0.012"        position="10.8 11.8 -27.5"            rotation="0 0 0"  ></a-entity>
+<a-entity gltf-model="#boitee4"      scale="0.012 0.006 0.012"        position="10.8 11.8 -29"              rotation="0 0 0"  ></a-entity>
+
+<a-entity gltf-model="#boitee5"      scale="0.012 0.006 0.018"        position="18 11.8 -27"              rotation="0 0 0"  ></a-entity>
+<a-entity gltf-model="#boitee5"      scale="0.012 0.006 0.018"        position="18 11.8 -25"              rotation="0 0 0"  ></a-entity>
+<a-entity gltf-model="#boitee5"      scale="0.012 0.006 0.018"        position="18 11.8 -23"              rotation="0 0 0"  ></a-entity>
+
+
+<a-entity gltf-model="#benz"         scale="0.015 0.015 0.015"              position="8.3 12.28 -40"      rotation="0 180 0"></a-entity>
+
+
+<a-entity gltf-model="#bota"         scale="0.009 0.009 0.009"              position="13 11.8 -34"      rotation="0 90 0"></a-entity>
+<a-entity gltf-model="#bota"         scale="0.009 0.009 0.009"              position="14.5 11.8 -34"      rotation="0 90 0"></a-entity>
+
+
+
+<a-entity gltf-model="#dozaj"         scale="3 3 3"              position="13.80 11.9 -39"      rotation="0 0 0"></a-entity>
+
+
+<a-entity gltf-model="#maga"         scale="0.05 0.05 0.05"              position="18 12.2 -39"      rotation="0 -90 0"></a-entity>
+<a-entity gltf-model="#maga"         scale="0.05 0.05 0.05"              position="18 12.2 -35"      rotation="0 -90 0"></a-entity>
+<a-entity gltf-model="#maga"         scale="0.05 0.05 0.05"              position="18 12.2 -32"      rotation="0 -90 0"></a-entity>
+
+
+<a-entity gltf-model="#pipit"        scale="0.05 0.05 0.05"                       position="13.0 11.75 -38.5"   rotation="8 0 0"></a-entity>
+<a-entity gltf-model="#pipit"        scale="0.05 0.05 0.05"                       position="12.5 11.75 -38.5"   rotation="8 0 0"></a-entity>
+<a-entity gltf-model="#pipit"        scale="0.05 0.05 0.05"                       position="12.75 11.75 -38.5"   rotation="8 0 0"></a-entity>
+
+
+
+
+<a-entity gltf-model="#pipit"        scale="0.05 0.05 0.05"                       position="14.4 11.75 -38.5"   rotation="8 0 0"></a-entity>
+<a-entity gltf-model="#pipit"        scale="0.05 0.05 0.05"                       position="14.7 11.75 -38.5"   rotation="8 0 0"></a-entity>
+<a-entity gltf-model="#pipit"        scale="0.05 0.05 0.05"                       position="14.95 11.75 -38.5"   rotation="8 0 0"></a-entity>
+
+
+<a-entity gltf-model="#mail"         scale="2.2 2.2 2.2"              position="8.7 11.869 -34"      rotation="0 180 0"></a-entity>
+
+
+
+
+<a-entity gltf-model="#balance"         scale="0.05 0.05 0.05"              position="8.7 12.2 -43.7"      rotation="0 0 0"></a-entity>
+<a-entity gltf-model="#balance"         scale="0.05 0.05 0.05"              position="10.2 12.2 -43.7"      rotation="0 0 0"></a-entity>
+<a-entity gltf-model="#balance"         scale="0.05 0.05 0.05"              position="11.7 12.2 -43.7"      rotation="0 0 0"></a-entity>
+<a-entity gltf-model="#balance"         scale="0.05 0.05 0.05"              position="13.2 12.2 -43.7"      rotation="0 0 0"></a-entity>
+
+
+
+<!--porte-->
+<a-box widt="10" height="3.2" depth="0.02" position ="-0.09 13.2 -14.9" rotation= "0 0 0" scale="2.5 2 2"  color="brown" >
+<a-animation  attribute="position" begin="click" to="-2.65 13.2 -15.4"></a-animation>
+<a-event name="mouseenter" scale="9 5 8"></a-event>
+</a-box>
+
+<!--cube Noire-->
+<a-box widt="0.5" height="0.5" depth="0.5" position ="1.5 12 -7" rotation= "0 0 0" scale="2 2 2" src="texture" color="green" >
+<a-animation  attribute="rotation" begin="click" repeat="indefinite" to="0 360 0"></a-animation>
+<a-event name="mouseenter" scale="9 5 8"></a-event>
+</a-box> 
+
+
+<!--sphere blue-->
+<a-sphere  position ="13.5 12 -27.5"  scale="0.10 0.10 0.10"  color="blue" >
+<a-animation  attribute="position" begin="click" to="12 13.2 -27.9" ></a-animation>
+<a-event name="mouseenter" scale="9 5 8"></a-event>
+</a-sphere>
+
+<!--sphere rouge-->
+<a-sphere  position ="10.8 12 -27.5"  scale="0.10 0.10 0.10" color="red" >
+<a-animation  attribute="position" begin="click" to="11.8 13.2 -27.9" ></a-animation>
+<a-event name="mouseenter" scale="9 5 8"></a-event>
+</a-sphere>
+
+<!--sphere jaune-->
+<a-sphere  position ="10.8 12 -29"  scale="0.10 0.10 0.10" color="yellow" >
+<a-animation  attribute="position" begin="click" to="11.87 13.35 -27.9" ></a-animation>
+<a-event name="mouseenter" scale="9 5 8"></a-event>
+</a-sphere>
+
+<!--sphere brown-->
+<a-sphere  position ="13.5 12 -29"  scale="0.10 0.10 0.10" color="brown" >
+<a-animation  attribute="position" begin="click" to="1.5 -15 -7" ></a-animation>
+<a-event name="mouseenter" scale="9 5 8"></a-event>
+</a-sphere>
+
+
+<!--sabbora-->
+<a-box widt="10" height="3.2" depth="0.02" position ="18.1 12.1 -18.3" rotation= "0 90 0" scale="6.3 3.19 2"  color="brown" >
+<a-animation  attribute="position" begin="click" to="18.1 26 -18.3"></a-animation>
+<a-event name="mouseenter" scale="9 5 8"></a-event>
+</a-box>
+
+
+ 
+
+
+
+<a-text font="kelsonsans" value="Expérience 1 " width="2" position="11.85 11.6 -27"      rotation="0 0 0" color="red"></a-text>
+
+<a-text font="kelsonsans" value="H2O "          width="3" position="11.815 13.55 -28"      rotation="0 0 0" color="red"></a-text>
+
+<a-text font="kelsonsans" value="C3HNH2 "       width="3" position="12.2 13.55 -28"      rotation="0 0 0" color="red"></a-text>
+
+<a-text font="kelsonsans" value="H21 "          width="6" position="18.1 12.1 -18.3"     rotation="0 -90 0"color="red"></a-text>
+
+<a-text font="kelsonsans" value="Blue de méthanol"          width="4" position="13.8 13.5 -34"     rotation="0 0 0"color="red"></a-text>
+
+
+<a-text font="kelsonsans" value="Paracétamol"          width="4" position="12.5 13.5 -34"     rotation="0 0 0"color="red"></a-text>
+
+<a-sky src="#sky"></a-sky>
+
+
+<a-text font="kelsonsans" value="kfkfkfjfjfjfjfjj"          width="4" position="12.5 13.5 -34"     rotation="0 180 0"color="red"></a-text>
+
+<a-sky src="#sky"></a-sky>
+
+
+
+<!--camera-->
+<a-entity position="12.03 11 -35" rotation="0 0 0">
+<a-camera>
+<a-cursor color="yellow"></a-cursor>
+</a-camera>
+</a-entity>
+
+
+
+</a-scene>
+
+<script>
+var box = document.querySelector('a-box');
+box.addEventListener( "mouseenter", function{ }
+{box.setAttribute {"scale",{ x:1.5, y:3, z:9,});
+</script>
+
+
+</body>
+</html>
